@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Club Website</title>
+    <link rel="stylesheet" type="text/css" href="project.css">
+</head>
+<body>
+    <header>
+        <nav aria-label="Main Navigation">
+            <div class="logo">
+                <h1>FITNESS<span>&nbsp;&nbsp;CLUB</span></h1>
+            </div>
+            <div class="menu">
+                <a href="#about">About</a>
+                <a href="training.html">Training</a>
+                <a href="#timetable">Time Table</a>
+                <a href="nutrition.html">Nutrition</a>
+                <a href="#gallery">Gallery</a>
+            </div>
+        </nav>
+        <section class="hero" aria-label="Hero Section">
+            <div class="col1">
+                <img src="https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Fitness club hero 1">
+                <img src="https://wallpaperaccess.com/full/2040367.jpg" alt="Fitness club hero 2">
+            </div>
+            <div class="head2">
+                <h2 style="color:dodgerblue ;">Join Fitness Club</h2>
+            </div>
+            <form class="container" aria-label="Registration Form">
+                <input type="text" name="name" placeholder="Your Name" aria-label="Your Name" required>
+                <input type="tel" name="phone" placeholder="Your Phone No" aria-label="Your Phone Number" required pattern="[0-9]{10,15}">
+                <input type="email" name="email" placeholder="Your Email" aria-label="Your Email" required>
+                <button class="btn" type="submit">Register Now</button>
+            </form>
+        </section>
+    </header>
+
+    <main>
+        <section id="about" aria-labelledby="about-title">
+            <h3 id="about-title" style="color: red;">About Us</h3>
+            <h4>Trainers Who Care</h4>
+            <p id="p1">Our trainers take your fitness goals seriously. We understand that losing weight and gaining muscle can be challenging,
+                <br> and our goal is to help you overcome hurdles and reach your goals.
+                <br> We analyze your body type, BMI, and metabolism, to create your individualized fitness plan.</p>
+        </section>
+
+        <section id="events" aria-labelledby="events-title">
+            <div class="title">
+                <h5 id="events-title">Latest Events</h5>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <article class="col">
+                    <img src="https://content.active.com/Assets/Active.com+Content+Site+Digital+Assets/Kids/whole+family+workout+front.jpg" alt="Family Workout Sessions">
+                    <h6>Family Workout Sessions</h6>
+                    <p style="color: red;">Make it a family affair and invite family members to come out and do group workout sessions separate or together. Have a section where kids can do fun workouts while parents engage in adult-sized fun exercises.</p>
+                    <a href="#" class="ctn" aria-label="Know more about Family Workout Sessions">Know More</a>
+                </article>
+                <article class="col">
+                    <img src="https://blog.wishpond.com/wp-content/uploads/2019/10/Free-Gym-For-All.jpg" alt="Free Gym For All">
+                    <h6>Free Gym For All</h6>
+                    <p style="color: rgb(0, 255, 17);">Host an event where people can use your gym and attend classes for free for one night or a week; just let attendants enter by giving you their contact details and email</p>
+                    <a href="#" class="ctn" aria-label="Know more about Free Gym For All">Know More</a>
+                </article>
+                <article class="col">
+                    <img src="https://blog.wishpond.com/wp-content/uploads/2019/10/Weight-Lifting-Contest.jpg" alt="Weight Lifting Contest">
+                    <h6>Weight Lifting Contest</h6>
+                    <p style="color: whitesmoke;">Host a weight-lifting competition at your gym. You can charge an affordable entrance fee, and the person who lifts the highest amount of weight wins a cash prize, trophy, and a free gym membership (to keep them going to your gym).</p>
+                    <a href="#" class="ctn" aria-label="Know more about Weight Lifting Contest">Know More</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="timetable" aria-labelledby="timetable-title">
+            <div class="title">
+                <h5 id="timetable-title">Weekly Time Table</h5>
+                <div class="line"></div>
+            </div>
+            <div class="timetable-container">
+                <table class="timetable">
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Workout</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday</td>
+                            <td>Chest & Triceps</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>Back & Biceps</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>Legs</td>
+                        </tr>
+                        <tr>
+                            <td>Thursday</td>
+                            <td>Shoulders</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>Full Body</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday</td>
+                            <td>Arms & Abs</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td>Rest / Active Recovery</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <section id="gallery" aria-labelledby="gallery-title">
+        <div class="title">
+            <h5 id="gallery-title">Gallery</h5>
+            <div class="line"></div>
+        </div>
+        <div class="gallery-grid">
+            <img src="https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&w=600" alt="Gym equipment 1" tabindex="0">
+            <img src="https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&w=600" alt="Personal training" tabindex="0">
+            <img src="https://images.pexels.com/photos/2261482/pexels-photo-2261482.jpeg?auto=compress&w=600" alt="Group workout" tabindex="0">
+            <img src="https://images.pexels.com/photos/2780768/pexels-photo-2780768.jpeg?auto=compress&w=600" alt="Yoga class" tabindex="0">
+            <img src="https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&w=600" alt="Weight lifting" tabindex="0">
+            <img src="https://images.pexels.com/photos/1552106/pexels-photo-1552106.jpeg?auto=compress&w=600" alt="Cardio session" tabindex="0">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Fitness Club. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook">Facebook</a>
+                <a href="#" aria-label="Instagram">Instagram</a>
+                <a href="#" aria-label="Twitter">Twitter</a>
+            </div>
+        </div>
+    </footer>
+    <script src="project.js"></script>
+</body>
+</html>
